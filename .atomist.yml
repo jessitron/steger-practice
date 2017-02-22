@@ -53,3 +53,19 @@ editor:
     branch: "jessitron/snapshot-rug"
     sha: "6491d33*"
 
+---
+kind: "operation"
+client: "rug-cli 0.24.0"
+editor:
+  name: "jessitron.elm-rugs.AddButton"
+  group: "jessitron"
+  artifact: "elm-rugs"
+  version: "2.1.0"
+  origin:
+    repo: "git@github.com:jessitron/elm-rugs"
+    branch: "jessitron/snapshot-rug"
+    sha: "6491d33*"
+  parameters:
+    - "button_text": "Backwards"
+    - "button_message": "Backwards"
+
