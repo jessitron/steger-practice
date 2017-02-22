@@ -101,3 +101,16 @@ editor:
   parameters:
     - "input_name": "say"
 
+---
+kind: "operation"
+client: "rug-cli 0.24.0"
+editor:
+  name: "jessitron.elm-rugs.Release"
+  group: "jessitron"
+  artifact: "elm-rugs"
+  version: "2.2.0"
+  origin:
+    repo: "git@github.com:jessitron/elm-rugs"
+    branch: "jessitron/snapshot-rug"
+    sha: "00c0fa1*"
+
