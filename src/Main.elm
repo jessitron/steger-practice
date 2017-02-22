@@ -5,7 +5,6 @@ import Html.Events
 import Html.Attributes
 
 
-
 main : Program Never Model Msg
 main =
     Html.beginnerProgram
@@ -53,7 +52,10 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    Html.div [] [ Html.h1 [] [ Html.text "Hello Steger!" ] ]
+    Html.div []
+        [ backwardsButton
+        , Html.h1 [] [ Html.text "Hello Steger!" ]
+        ]
 
 
 backwardsButton : Html Msg
@@ -63,4 +65,3 @@ backwardsButton =
         , Html.Attributes.id "backwards"
         ]
         [ Html.text "Backwards" ]
-
