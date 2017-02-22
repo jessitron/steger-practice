@@ -1,0 +1,6 @@
+html,head,body { padding:0; margin:0; }
+body { text-align: center; margin: 10px;
+  font-family: calibri, helvetica, arial, sans-serif;
+background-color: lightblue }
+
+h1 { text-align: center; margin: 10px; color: red }
